@@ -26,7 +26,7 @@
     <string name="ubicacion">Km. 1.8 Carretera a loma de cojolite Misantla, Veracruz, México</string>
     <string name="horario">Horario: \n 9:00 AM a 6:00 PM \n Lunes a Sabado</string>
     <string name="admision">CROQUIS DEL ITSM</string>
-    <string name="google_maps_key">AIzaSyAX3YaOZ4KNNpKbyFONKivX2KK_1o-tBkU</string>
+    <string name="google_maps_key">Ingrese API KEY</string>
     <string name="fichas">INFORMACIÓN DE FICHAS</string>
 
 
