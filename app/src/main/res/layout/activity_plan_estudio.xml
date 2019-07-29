@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PlanEstudio"
+    android:background="@drawable/wallpaper">
+
+    <Button
+        android:id="@+id/planback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atras"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Programa de estudios de las ingenierias impartidas en el sistema abierto"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_local_library_black_24dp"
+                android:drawablePadding="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btnIsc"
+                android:text="@string/isc"
+                android:background="@color/barraIsc"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_local_library_black_24dp"
+                android:drawablePadding="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btnIge"
+                android:text="@string/ige"
+                android:background="@color/barraIge"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_local_library_black_24dp"
+                android:drawablePadding="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/btnIi"
+                android:text="@string/ii"
+                android:background="@color/barraIi"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
